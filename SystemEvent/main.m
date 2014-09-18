@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+#import "CustomApplication.h"
 #import "DBAppDelegate.h"
-
-int main(int argc, char * argv[])
-{
+int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([DBAppDelegate class]));
+        // return UIApplicationMain(argc, argv, nil, NSStringFromClass([d class]));
+        return UIApplicationMain(argc, argv, NSStringFromClass([CustomApplication class]), NSStringFromClass([DBAppDelegate class]));
+        
     }
 }

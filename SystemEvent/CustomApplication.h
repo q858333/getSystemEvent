@@ -1,5 +1,5 @@
 //
-//  DBViewController.h
+//  CustomApplication.h
 //  GetSystemEvent
 //
 //  Created by dengbin on 14/9/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DBViewController : UIViewController
-{
-    UITextField *_textFiled;
-}
+@interface CustomApplication : UIApplication
+
 @end
